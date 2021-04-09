@@ -1,0 +1,356 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;700&family=Special+Elite&display=swap");
+
+/* 
+ font-family: 'Exo', sans-serif;
+ font-family: 'Special Elite', cursive; 
+ */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+header {
+  height: 100vh;
+  background-image: url("../img/bg.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+header nav {
+  position: fixed;
+  width: 100%;
+}
+
+nav ul {
+  font-family: "Special Elite", cursive;
+  list-style-type: none;
+  text-align: right;
+  background-color: #fff;
+  margin: 0;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #000;
+}
+nav li a:hover {
+  text-decoration: underline;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 1.5em;
+}
+
+header > div > img {
+  margin: 20% 0;
+}
+
+/* Styling Section 1 */
+
+#section01_bg {
+  background-image: url("../img/beans_icon.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+}
+
+section:nth-of-type(1) > article {
+  height: 45vh;
+  margin: 0 9%;
+  padding-top: 7%;
+  width: auto;
+}
+
+h1 {
+  font-family: "Exo", sans-serif;
+  font-size: 3.2em;
+  margin: 0;
+}
+
+section:nth-of-type(1) p {
+  font-family: "Special Elite", cursive;
+  font-size: 1.2em;
+  font-weight: 100;
+  line-height: 1.12em;
+  width: 45%;
+}
+
+/* Parallax 1 */
+
+.parallax_bg1 {
+  background-image: url("../img/bridge_1.jpg");
+  height: 50vh;
+  background-attachment: fixed;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Styling Section 2 */
+
+#section02_bg {
+  background-image: url("../img/cake_icon.png");
+  background-position: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 145vh;
+}
+
+section:nth-of-type(2) {
+  font-family: "Special Elite", cursive;
+  text-align: center;
+}
+section:nth-of-type(2) h1 {
+  padding: 1em 0 0 0;
+}
+
+img.menu_icon {
+  width: 3.5%;
+  margin: 0 auto;
+}
+
+section:nth-of-type(2) a {
+  text-decoration: none;
+  color: #000;
+}
+
+section:nth-of-type(2) a:hover {
+  text-decoration: underline;
+}
+
+h2 {
+  font-family: "Exo", sans-serif;
+  font-size: 2em;
+  margin: 5vh 0 2vh 0;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Exo", sans-serif;
+  font-size: 1.2em;
+  margin: 2vh 0 0 0;
+}
+
+.menu_box {
+  width: 26em;
+  border: 1px solid #000;
+  margin: 2vh auto;
+  padding: 0 2.5vh;
+}
+
+.menu_box p {
+  font-size: 1.25em;
+}
+
+/* Parallax 2 */
+
+.parallax_bg2 {
+  background-image: url("../img/bridge_2.jpg");
+  height: 50vh;
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Styling Section 03 */
+
+section:nth-of-type(3) {
+  height: 100vh;
+  background-color: #fff;
+}
+
+section:nth-of-type(3) h4 {
+  font-family: "Exo", sans-serif;
+  font-size: 2em;
+  margin: 5% 0 0 20%;
+  padding-top: 0;
+}
+
+section:nth-of-type(3) p {
+  font-family: "Special Elite", cursive;
+  font-size: 1.2em;
+  font-weight: 100;
+  line-height: 1.5em;
+  width: 28%;
+  margin: 1% 0 0 20%;
+  padding-top: 0;
+}
+
+img.story_img {
+  width: 25%;
+  margin: -100% 0 0 55%;
+}
+
+/* Parallax 3 */
+
+.parallax_bg3 {
+  background-image: url("../img/bridge_3.jpg");
+  height: 50vh;
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Styling Section 04 */
+
+#section04_bg {
+  background-image: url("../img/pie_icon.png");
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 77vh;
+}
+
+section:nth-of-type(4) h4 {
+  font-family: "Exo", sans-serif;
+  font-size: 2em;
+  margin: 5% 0 0 50%;
+  padding-top: 0;
+}
+
+section:nth-of-type(4) p {
+  font-family: "Special Elite", cursive;
+  font-size: 1.2em;
+  font-weight: 100;
+  line-height: 1.5em;
+  width: 28%;
+  margin: 1% 0 0 50%;
+  padding-top: 0;
+}
+
+#button_section04 {
+  font-family: "Special Elite", cursive;
+  background-color: transparent;
+  font-size: 1em;
+  border: 1px solid #000;
+  padding: 0.3em;
+  margin: 0 0 0 50%;
+}
+#button_section04:hover {
+  text-decoration: underline;
+}
+
+img.catering {
+  width: 25%;
+  margin: -15.5% 0 0 20%;
+}
+
+/* Parallax 4 */
+
+.parallax_bg4 {
+  background-image: url("../img/bridge_4.jpeg");
+  height: 50vh;
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Styling Section 05 */
+
+#section05_bg {
+  background-image: url("../img/muffin_icon.png");
+  background-position: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 70vh;
+}
+
+section:nth-of-type(5) > article {
+  height: 45vh;
+  margin: 0 9%;
+  padding-top: 2%;
+}
+
+section:nth-of-type(5) h5 {
+  font-family: "Exo", sans-serif;
+  font-size: 2em;
+  margin: 5% 0 0 50%;
+  padding-top: 0;
+}
+
+section:nth-of-type(5) p {
+  font-family: "Special Elite", cursive;
+  font-size: 1.2em;
+  font-weight: 100;
+  line-height: 1.3em;
+  width: 32%;
+  margin: 1% 0 0 50%;
+  padding-top: 0;
+}
+
+#button_section05 {
+  font-family: "Special Elite", cursive;
+  background-color: transparent;
+  font-size: 1em;
+  border: 1px solid #000;
+  padding: 0.3em;
+  margin: 0 0 0 50%;
+}
+#button_section05:hover {
+  text-decoration: underline;
+}
+
+img.cakes {
+  width: 25%;
+  margin: -16% 0 0 20%;
+}
+
+/* Styling Footer */
+
+footer {
+  height: 35vh;
+  width: 100%;
+  background-color: #000;
+  text-align: center;
+  color: #fff;
+  margin: 0 auto;
+}
+
+footer h6 {
+  font-family: "Exo", sans-serif;
+  font-size: 2em;
+  margin: 0;
+  padding-top: 2%;
+}
+
+footer p {
+  font-family: "Special Elite", cursive;
+  font-size: 1.2em;
+  width: 30%;
+  margin: 0 auto;
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  margin: 0;
+  padding: 0;
+}
+
+img.footer_icon {
+  width: 2%;
+  margin: 0 auto;
+}
+img.today_icon {
+  width: 8%;
+  margin: 0 auto;
+}
